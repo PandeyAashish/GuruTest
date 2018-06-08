@@ -16,7 +16,7 @@ public class Login {
 	@Test
 	public void Testdatang() throws FileNotFoundException {
 
-		System.setProperty("webdriver.chrome.driver","/Users/ashishpandey/Desktop/chromedriver");
+		System.setProperty("webdriver.chrome.driver","/usr/bin/chromedriver");
 		WebDriver driver = new ChromeDriver();
 		Properties properties = new Properties();
 		String propertyFilePath = System.getProperty("user.dir") + ("/src/main/resources/Properties/Config.properties");
