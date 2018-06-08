@@ -1,0 +1,7 @@
+<suite name="GuruSuit">
+	<test name="testngTest">
+		<classes>
+			<class name="basePkg.Login" />
+		</classes>
+	</test>
+</suite>

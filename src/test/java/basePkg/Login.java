@@ -9,13 +9,12 @@ import java.util.Properties;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.Test;
 
 public class Login {
 
-	//WebDriver driver;
-
-	public static void main(String[] args) throws FileNotFoundException {
+	@Test
+	public void Testdatang() throws FileNotFoundException {
 
 		System.setProperty("webdriver.chrome.driver","/Users/ashishpandey/Desktop/chromedriver");
 		WebDriver driver = new ChromeDriver();
